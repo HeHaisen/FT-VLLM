@@ -21,8 +21,6 @@ data_dict = {"mydataset": MY_DATASET}
 ```plaintext
 huggingface-cli download --resume-download Qwen/Qwen2-VL-7B-Instruct --local-dir your-path
 ```
-
-
 ### 3. 设定参数，运行sh脚本
 根据系统配置调整参数，运行sft.sh脚本
 
